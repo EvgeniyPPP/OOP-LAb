@@ -12,7 +12,7 @@ public class Main {
 
         System.out.println("animal 1 full info");
         animal1.printInfo();
-        System.out.println("__________________________________________________");
+        System.out.println("_________ _________________________________________");
 
         System.out.println("animal 1 short info");
         animal1.printInfo();
