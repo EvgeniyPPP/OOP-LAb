@@ -2,7 +2,7 @@ package lab1;
 
 public class Visit {
     private String service;
-    private String prise;
+    private String price;
     private Date visitDate;
 
     public Visit() {
@@ -10,13 +10,13 @@ public class Visit {
 
     public Visit(String service, String prise, Date visitDate) {
         this.service = service;
-        this.prise = prise;
+        this.price = prise;
         this.visitDate = visitDate;
     }
 
     public void printInfo() {
-        System.out.printf("Visit info:  servise: %s, price: %s%n ", service, prise);
-        System.out.println("Owner birthdate: ");
+        System.out.printf("Visit info:  servise: %s, price: %s%n ", service, price);
+        System.out.print("Visit date: ");
         visitDate.printInfo();
     }
 
@@ -28,12 +28,12 @@ public class Visit {
         this.service = service;
     }
 
-    public String getPrise() {
-        return prise;
+    public String getPrice() {
+        return price;
     }
 
-    public void setPrise(String prise) {
-        this.prise = prise;
+    public void setPrice(String price) {
+        this.price = price;
     }
 
     public Date getVisitDate() {

@@ -18,6 +18,28 @@ public class Animal {
         this.owner = owner;
     }
 
+    public void printInfo() {
+        System.out.printf("Animal info:  Name: %s, AnimalType: %s%n ", name, animalType);
+        System.out.println("Owner info: ");
+        owner.printInfo();
+        for (Visit visit : visitList) {
+            visit.printInfo();
+        }
+    }
+
+    public void printShortInfo () {
+        System.out.printf("Short info:  AnimalName: %s, OwnerName: %s%n", name, owner.getName());
+        System.out.println( " Number of visits" + visitList.size());
+    }
+
+    public void addVisitList(Visit visit) {
+        visitList.add(visit);
+    }
+
+    public List<Visit> getVisitList() {
+        return visitList;
+    }
+
     public String getName() {
         return name;
     }

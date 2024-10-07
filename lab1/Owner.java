@@ -16,7 +16,7 @@ public class Owner {
 
     public void printInfo() {
         System.out.printf("Owner info:  Name: %s, Surname: %s%n ", name, surname);
-        System.out.println("Owner birthdate: ");
+        System.out.print("Owner birthdate: ");
         birthdate.printInfo();
     }
 

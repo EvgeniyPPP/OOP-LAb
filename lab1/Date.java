@@ -15,7 +15,7 @@ public class Date {
     }
 
     public void printInfo() {
-        System.out.printf("Date info: day: %s, month: %s, year: %s%n", day, month, year);
+        System.out.printf(" day: %s, month: %s, year: %s%n", day, month, year);
     }
 
     public int getDay() {

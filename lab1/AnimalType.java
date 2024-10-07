@@ -1,7 +1,7 @@
 package lab1;
 
 public enum AnimalType {
-    CAT ,
-    DOG ,
+    CAT,
+    DOG,
     BIRD
 }
